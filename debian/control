@@ -1,0 +1,12 @@
+Source: ros-verystable-foonathan-memory-vendor
+Section: misc
+Priority: optional
+Maintainer: Miguel Company <miguelcompany@eprosima.com>
+Build-Depends: debhelper (>= 9.0.0), cmake, git, ros-verystable-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-verystable-foonathan-memory-vendor
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, cmake, ros-verystable-ros-workspace
+Description: Foonathan/memory vendor package for Fast-RTPS.
